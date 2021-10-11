@@ -1,0 +1,220 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
+font-family: 'Poppins', sans-serif;
+line-height: 1.2 !important;
+font-weight: 600;
+}
+
+.acs-h1 {
+font-size: 2rem;
+}
+
+.acs-h2 {
+font-size: 1.8rem;
+}
+
+.acs-h3 {
+font-size: 1.6rem;
+}
+
+.acs-h4 {
+font-size: 1.4rem;
+}
+
+.acs-h5 {
+font-size: 1.2rem;
+}
+
+.acs-h6 {
+font-size: 1.1rem;
+}
+
+/* Larger than phablet */
+@media (min-width: 575px) {
+.acs-h1 {
+font-size: 3rem !important;
+}
+
+.acs-h2 {
+font-size: 2.5rem !important;
+}
+
+.acs-h3 {
+font-size: 2.25rem !important;
+}
+
+.acs-h4 {
+font-size: 2rem !important;
+}
+
+.acs-h5 {
+font-size: 1.75rem !important;
+}
+
+.acs-h6 {
+font-size: 1.5rem !important;
+}
+}
+
+.acs-wrapper { 
+font-family: 'Poppins', sans-serif
+}
+
+.acs-bold {
+font-family: var(--bold-font);   
+font-weight: 600;
+}
+
+
+/* Variables */
+.acs-wrapper {
+--accent: #3899FF;
+--accent2: #0061D0;
+--black: #000;
+--white: #fff;
+--gray: #f4f4f4; 
+--gray2: #f3f3f3;
+--dark: #222222; 
+--dark2: #1e293b;
+--dark3: #0f172a;
+--bold-font: 'Poppins', sans-serif;
+}
+
+
+
+/* Text Colors */
+.acs-black {
+color: var(--black)
+}
+.acs-white {
+color: var(--white)
+}
+.acs-gray {
+color: var(--gray)
+}
+.acs-gray2 {
+color: var(--gray2)
+}
+.acs-dark {
+color: var(--dark)
+}
+.acs-dark2 {
+color: var(--dark2)
+}
+.acs-dark3 {
+color: var(--dark3)
+}
+
+
+/* Accent Colors */
+.acs-accent {
+color: var(--accent)
+}
+.acs-accent2 {
+color: var(--accent2)
+}
+.acs-accent3 {
+color: var(--accent3)
+}
+.acs-accent4 {
+color: var(--accent4)
+}
+
+
+
+/* BG Colors */
+.acs-bg-accent {
+background-color: var(--accent)
+}
+.acs-bg-accent2 {
+background-color: var(--accent2)
+}
+.acs-bg-accent3 {
+background-color: var(--accent3)
+}
+.acs-bg-accent4 {
+background-color: var(--accent4)
+}
+.acs-bg-black {
+background-color: var(--black)
+}
+.acs-bg-white {
+background-color: var(--white)
+}
+.acs-bg-gray {
+background-color: var(--gray)
+}
+.acs-bg-dark {
+background-color: var(--dark)
+}
+.acs-bg-dark2 {
+background-color: var(--dark2)
+}
+.acs-bg-dark3 {
+background-color: var(--dark3)
+}
+
+
+/* Link Accent */
+.acs-link-accent {
+text-decoration: underline;
+color: var(--accent) !important;
+transition: all 0.2s ease-in-out 0s;
+}
+.acs-link-accent:hover {
+color: var(--accent2) !important; 
+}
+
+
+/* BUTTONS: START */
+/* Button 1 */
+.acs-button {
+background-color: var(--accent);
+border-radius: 25px;
+display: inline-block;
+text-align: center;
+color: var(--white);
+border: solid 3px var(--accent);
+text-decoration: none !important;
+padding: 16px;
+line-height: 1;
+text-transform: uppercase;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: .8125rem;
+letter-spacing: .5px;
+min-width: 180px;
+transition: all 0.2s ease-in-out 0s;
+}
+.acs-button:hover {
+background-color: var(--accent2);
+color: var(--white);
+border: solid 3px var(--accent2)
+}
+
+/* Button 2 */
+.acs-button2 {
+background-color: transparent;
+border-radius: 25px;
+display: inline-block;
+text-align: center;
+color: var(--accent);
+border: solid 3px var(--accent);
+text-decoration: none !important;
+padding: 16px;
+line-height: 1;
+text-transform: uppercase;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: .8125rem;
+letter-spacing: .5px;
+min-width: 180px;
+transition: all 0.2s ease-in-out 0s;
+}
+.acs-button2:hover {
+color: var(--accent2);
+border: solid 3px var(--accent2);
+}
+/* BUTTONS: END */
