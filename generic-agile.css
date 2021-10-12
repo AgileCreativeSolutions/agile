@@ -3,7 +3,7 @@
 
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: 'Poppins', sans-serif;
-line-height: 1.2 !important;
+line-height: 1.2;
 font-weight: 600;
 }
 
@@ -115,12 +115,6 @@ color: var(--accent)
 .acs-accent2 {
 color: var(--accent2)
 }
-.acs-accent3 {
-color: var(--accent3)
-}
-.acs-accent4 {
-color: var(--accent4)
-}
 
 
 
@@ -131,20 +125,11 @@ background-color: var(--accent)
 .acs-bg-accent2 {
 background-color: var(--accent2)
 }
-.acs-bg-accent3 {
-background-color: var(--accent3)
-}
-.acs-bg-accent4 {
-background-color: var(--accent4)
-}
-.acs-bg-black {
-background-color: var(--black)
-}
-.acs-bg-white {
-background-color: var(--white)
-}
 .acs-bg-gray {
 background-color: var(--gray)
+}
+.acs-bg-gray2 {
+background-color: var(--gray2)
 }
 .acs-bg-dark {
 background-color: var(--dark)
