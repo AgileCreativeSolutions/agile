@@ -74,6 +74,18 @@ font-size: 1.2rem !important;
 
 
 
+/* Heading Normalizer */
+.agile-h1, .agile-h2, .agile-h3, .agile-h4, .agile-h5, .agile-h6, p  {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+/* Heading Normalizer */
+
+
+
 /* OEM Font Variables */
 .agile-brand-lt {
 font-family: 'Montserrat', sans-serif !important;
