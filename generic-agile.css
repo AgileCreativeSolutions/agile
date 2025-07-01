@@ -13,18 +13,6 @@ font-weight: 400
 
 
 
-/* Heading Normalizer */
-.agile-h1, .agile-h2, .agile-h3, .agile-h4, .agile-h5, .agile-h6, p  {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-vertical-align: baseline;
-}
-/* Heading Normalizer */
-
-
-
 /* Heading Tags */
 .agile-h1, .agile-h2, .agile-h3, .agile-h4, .agile-h5, .agile-h6 {
 font-family: 'Montserrat', sans-serif;
@@ -86,6 +74,18 @@ font-size: 1.2rem !important;
 
 
 
+/* Heading Normalizer */
+.agile-h1, .agile-h2, .agile-h3, .agile-h4, .agile-h5, .agile-h6, p  {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+/* Heading Normalizer */
+
+
+
 /* OEM Font Variables */
 .agile-brand-lt {
 font-family: 'Montserrat', sans-serif !important;
@@ -108,7 +108,7 @@ font-weight: 800 !important;
 }
 
 .agile-bold {
-font-family: var(--bold-font);   
+font-family: var(--agile-bold-font);   
 font-weight: 700;
 }
 /* OEM Font Variables */
@@ -117,27 +117,27 @@ font-weight: 700;
 
 /* Variables */
 .agile-brand {
---accent: #2464BF;
---accent2: #004b99;
---accent3: #264188;
---accent4: #ACCAE9;
---accent5: #002c64;
---accent6: #7CABDC;
---accent7: #c8def0;
---accent8: #E42336;
---accent9: #d31a2c;
---accent10: #F36D1F;
---accent11: #e04225;
---black: #000000; 
---white: #ffffff; 
---gray: #AFADB0; 
---gray2: #F4F4F4; 
---gray3: #F9F9FA;
---gray4: #CECFD1;
---gray5: #E4E5E6;
---dark: #333436;
---dark2: #1A1A1A;
---bold-font: 'Montserrat', sans-serif;
+--agile-accent: #2464BF;
+--agile-accent2: #004b99;
+--agile-accent3: #264188;
+--agile-accent4: #ACCAE9;
+--agile-accent5: #002c64;
+--agile-accent6: #7CABDC;
+--agile-accent7: #c8def0;
+--agile-accent8: #E42336;
+--agile-accent9: #d31a2c;
+--agile-accent10: #F36D1F;
+--agile-accent11: #e04225;
+--agile-black: #000000; 
+--agile-white: #ffffff; 
+--agile-gray: #AFADB0; 
+--agile-gray2: #F4F4F4; 
+--agile-gray3: #F9F9FA;
+--agile-gray4: #CECFD1;
+--agile-gray5: #E4E5E6;
+--agile-dark: #333436;
+--agile-dark2: #1A1A1A;
+--agile-bold-font: 'Montserrat', sans-serif;
 }
 /* Variables */
 
@@ -145,31 +145,31 @@ font-weight: 700;
 
 /* Text Colors */
 .agile-black {
-color: var(--black)
+color: var(--agile-black)
 }
 .agile-white {
-color: var(--white)
+color: var(--agile-white)
 }
 .agile-gray {
-color: var(--gray)
+color: var(--agile-gray)
 }
 .agile-gray2 {
-color: var(--gray2)
+color: var(--agile-gray2)
 }
 .agile-gray3 {
-color: var(--gray3)
+color: var(--agile-gray3)
 }
 .agile-gray4 {
-color: var(--gray4)
+color: var(--agile-gray4)
 }
 .agile-gray5 {
-color: var(--gray5)
+color: var(--agile-gray5)
 }
 .agile-dark {
-color: var(--dark)
+color: var(--agile-dark)
 }
 .agile-dark2 {
-color: var(--dark2)
+color: var(--agile-dark2)
 }
 /* Text Colors */
 
@@ -177,37 +177,37 @@ color: var(--dark2)
 
 /* Accent Colors */
 .agile-accent {
-color: var(--accent)
+color: var(--agile-accent)
 }
 .agile-accent2 {
-color: var(--accent2)
+color: var(--agile-accent2)
 }
 .agile-accent3 {
-color: var(--accent3)
+color: var(--agile-accent3)
 }
 .agile-accent4 {
-color: var(--accent4)
+color: var(--agile-accent4)
 }
 .agile-accent5 {
-color: var(--accent5)
+color: var(--agile-accent5)
 }
 .agile-accent6 {
-color: var(--accent6)
+color: var(--agile-accent6)
 }
 .agile-accent7 {
-color: var(--accent7)
+color: var(--agile-accent7)
 }
 .agile-accent8 {
-color: var(--accent8)
+color: var(--agile-accent8)
 }
 .agile-accent9 {
-color: var(--accent9)
+color: var(--agile-accent9)
 }
 .agile-accent10 {
-color: var(--accent10)
+color: var(--agile-accent10)
 }
 .agile-accent11 {
-color: var(--accent11)
+color: var(--agile-accent11)
 }
 /* Accent Colors */
 
@@ -215,94 +215,94 @@ color: var(--accent11)
 
 /* BG Colors */
 .agile-bg-accent {
---agile-bg-opacity: 1;
-background-color: var(--accent);
-background-color: rgba(36,100,191, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent);
+background-color: rgba(36,100,191, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent2 {
---agile-bg-opacity: 1;
-background-color: var(--accent2);
-background-color: rgba(0,75,153, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent2);
+background-color: rgba(0,75,153, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent3 {
---agile-bg-opacity: 1;
-background-color: var(--accent3);
-background-color: rgba(38,65,136, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent3);
+background-color: rgba(38,65,136, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent4 {
---agile-bg-opacity: 1;
-background-color: var(--accent4);
-background-color: rgba(172,202,233, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent4);
+background-color: rgba(172,202,233, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent5 {
---agile-bg-opacity: 1;
-background-color: var(--accent5);
-background-color: rgba(0,44,100, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent5);
+background-color: rgba(0,44,100, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent6 {
---agile-bg-opacity: 1;
-background-color: var(--accent6);
-background-color: rgba(124,177,220, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent6);
+background-color: rgba(124,177,220, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent7 {
---agile-bg-opacity: 1;
-background-color: var(--accent7);
-background-color: rgba(200,222,240, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent7);
+background-color: rgba(200,222,240, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent8 {
---agile-bg-opacity: 1;
-background-color: var(--accent8);
-background-color: rgba(228,35,54, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent8);
+background-color: rgba(228,35,54, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent9 {
---agile-bg-opacity: 1;
-background-color: var(--accent9);
-background-color: rgba(211,26,44, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent9);
+background-color: rgba(211,26,44, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent10 {
---agile-bg-opacity: 1;
-background-color: var(--accent10);
-background-color: rgba(243,109,31, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent10);
+background-color: rgba(243,109,31, var(--agile-agile-bg-opacity))
 }
 .agile-bg-accent11 {
---agile-bg-opacity: 1;
-background-color: var(--accent11);
-background-color: rgba(224,66,37, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-accent11);
+background-color: rgba(224,66,37, var(--agile-agile-bg-opacity))
 }
 .agile-bg-gray {
---agile-bg-opacity: 1;
-background-color: var(--gray);
-background-color: rgba(175,173,176, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-gray);
+background-color: rgba(175,173,176, var(--agile-agile-bg-opacity))
 }
 .agile-bg-gray2 {
---agile-bg-opacity: 1;
-background-color: var(--gray2);
-background-color: rgba(244,244,244, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-gray2);
+background-color: rgba(244,244,244, var(--agile-agile-bg-opacity))
 }
 .agile-bg-gray3 {
---agile-bg-opacity: 1;
-background-color: var(--gray3);
-background-color: rgba(249,249,250, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-gray3);
+background-color: rgba(249,249,250, var(--agile-agile-bg-opacity))
 }
 .agile-bg-gray4 {
---agile-bg-opacity: 1;
-background-color: var(--gray4);
-background-color: rgba(206,207,209, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-gray4);
+background-color: rgba(206,207,209, var(--agile-agile-bg-opacity))
 }
 .agile-bg-gray5 {
---agile-bg-opacity: 1;
-background-color: var(--gray5);
-background-color: rgba(228,229,230, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-gray5);
+background-color: rgba(228,229,230, var(--agile-agile-bg-opacity))
 }
 .agile-bg-dark {
---agile-bg-opacity: 1;
-background-color: var(--dark);
-background-color: rgba(51,52,54, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-dark);
+background-color: rgba(51,52,54, var(--agile-agile-bg-opacity))
 }
 .agile-bg-dark2 {
---agile-bg-opacity: 1;
-background-color: var(--dark2);
-background-color: rgba(26,26,26, var(--agile-bg-opacity))
+--agile-agile-bg-opacity: 1;
+background-color: var(--agile-dark2);
+background-color: rgba(26,26,26, var(--agile-agile-bg-opacity))
 }
 /* BG Colors */
 
@@ -311,17 +311,17 @@ background-color: rgba(26,26,26, var(--agile-bg-opacity))
 /* Link Accent */
 .agile-link-accent {
 text-decoration: none;
-color: var(--accent) !important;
+color: var(--agile-accent) !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .agile-link-accent:hover {
 text-decoration: underline;
-color: var(--accent2) !important; 
+color: var(--agile-accent2) !important; 
 }
 
 .agile-link-accent2 {
 text-decoration: none;
-color: var(--white) !important;
+color: var(--agile-white) !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .agile-link-accent2:hover {
@@ -331,7 +331,7 @@ opacity: .85
 
 .agile-link-accent3 {
 text-decoration: underline;
-color: var(--gray5) !important;
+color: var(--agile-gray5) !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .agile-link-accent3:hover {
@@ -340,7 +340,7 @@ opacity: .5
 
 .agile-link-accent4 {
 text-decoration: underline;
-color: var(--dark) !important;
+color: var(--agile-dark) !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .agile-link-accent4:hover {
@@ -349,20 +349,20 @@ opacity: .5
 
 .agile-link-accent5 {
 text-decoration: underline;
-color: var(--accent8) !important;
+color: var(--agile-accent8) !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .agile-link-accent5:hover {
-color: var(--accent9) !important;
+color: var(--agile-accent9) !important;
 }
 
 .agile-link-accent6 {
 text-decoration: underline;
-color: var(--accent10) !important;
+color: var(--agile-accent10) !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .agile-link-accent6:hover {
-color: var(--accent11) !important;
+color: var(--agile-accent11) !important;
 }
 /* Link Accent */
 
@@ -371,12 +371,12 @@ color: var(--accent11) !important;
 /* BUTTONS: START */
 /* Button 1 */
 .agile-button {
-background-color: var(--accent);
-border: 1px solid var(--accent);
+background-color: var(--agile-accent);
+border: 1px solid var(--agile-accent);
 display: inline-block;
 vertical-align: middle;
 text-align: center;
-color: var(--white) !important;
+color: var(--agile-white) !important;
 text-decoration: none !important;
 padding: 1rem 2rem;
 font-family: 'Montserrat', sans-serif;
@@ -387,19 +387,19 @@ min-width: 180px;
 transition: background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1),border-color .2s cubic-bezier(.4,0,.2,1),box-shadow .2s cubic-bezier(.4,0,.2,1),transform .2s cubic-bezier(.4,0,.2,1),opacity .2s cubic-bezier(.4,0,.2,1);
 }
 .agile-button:hover {
-background-color: var(--accent2);
-color: var(--white);
-border: 1px solid var(--accent2);
+background-color: var(--agile-accent2);
+color: var(--agile-white);
+border: 1px solid var(--agile-accent2);
 }
 
 /* Button 2 */
 .agile-button2 {
-background-color: var(--white);
-border: 1px solid var(--gray5);
+background-color: var(--agile-white);
+border: 1px solid var(--agile-gray5);
 display: inline-block;
 vertical-align: middle;
 text-align: center;
-color: var(--dark) !important;
+color: var(--agile-dark) !important;
 text-decoration: none !important;
 padding: 1rem 2rem;
 font-family: 'Montserrat', sans-serif;
@@ -411,7 +411,7 @@ transition: background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(
 }
 .agile-button2:hover {
 background-color: rgba(255, 255, 255, 0.64);
-color: var(--dark);
+color: var(--agile-dark);
 border: 1px solid rgba(255, 255, 255, 0.64);
 }
 
@@ -422,7 +422,7 @@ border: 1px solid rgba(255,255,255,.4);
 display: inline-block;
 vertical-align: middle;
 text-align: center;
-color: var(--white) !important;
+color: var(--agile-white) !important;
 text-decoration: none !important;
 padding: 1rem 2rem;
 font-family: 'Montserrat', sans-serif;
@@ -434,7 +434,7 @@ transition: background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(
 }
 .agile-button3:hover {
 background-color: rgba(0,0,0,.8);
-color: var(--whit);
+color: var(--agile-whit);
 border: 1px solid rgba(255,255,255,.8);
 }
 
@@ -445,7 +445,7 @@ border: 1px solid rgba(255,255,255,.4);
 display: inline-block;
 vertical-align: middle;
 text-align: center;
-color: var(--white) !important;
+color: var(--agile-white) !important;
 text-decoration: none !important;
 padding: 1rem 2rem;
 font-family: 'Montserrat', sans-serif;
@@ -457,18 +457,18 @@ transition: background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(
 }
 .agile-button4:hover {
 background-color: rgba(0,0,0,.4);
-color: var(--whit);
+color: var(--agile-whit);
 border: 1px solid rgba(255,255,255,.8);
 }
 
 /* Button 5 */
 .agile-button5 {
-background-color: var(--accent8);
+background-color: var(--agile-accent8);
 border: 1px solid rgba(255,255,255,.4);
 display: inline-block;
 vertical-align: middle;
 text-align: center;
-color: var(--white) !important;
+color: var(--agile-white) !important;
 text-decoration: none !important;
 padding: 1rem 2rem;
 font-family: 'Montserrat', sans-serif;
@@ -479,19 +479,19 @@ min-width: 180px;
 transition: background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1),border-color .2s cubic-bezier(.4,0,.2,1),box-shadow .2s cubic-bezier(.4,0,.2,1),transform .2s cubic-bezier(.4,0,.2,1),opacity .2s cubic-bezier(.4,0,.2,1);
 }
 .agile-button5:hover {
-background-color: var(--accent9);
-color: var(--whit);
+background-color: var(--agile-accent9);
+color: var(--agile-whit);
 border: 1px solid rgba(255,255,255,.8);
 }
 
 /* Button 6 */
 .agile-button6 {
-background-color: var(--accent10);
+background-color: var(--agile-accent10);
 border: 1px solid rgba(255,255,255,.4);
 display: inline-block;
 vertical-align: middle;
 text-align: center;
-color: var(--white) !important;
+color: var(--agile-white) !important;
 text-decoration: none !important;
 padding: 1rem 2rem;
 font-family: 'Montserrat', sans-serif;
@@ -502,8 +502,8 @@ min-width: 180px;
 transition: background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1),border-color .2s cubic-bezier(.4,0,.2,1),box-shadow .2s cubic-bezier(.4,0,.2,1),transform .2s cubic-bezier(.4,0,.2,1),opacity .2s cubic-bezier(.4,0,.2,1);
 }
 .agile-button6:hover {
-background-color: var(--accent11);
-color: var(--whit);
+background-color: var(--agile-accent11);
+color: var(--agile-whit);
 border: 1px solid rgba(255,255,255,.8);
 }
 /* BUTTONS: END */
